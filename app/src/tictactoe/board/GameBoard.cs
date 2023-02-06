@@ -10,7 +10,7 @@ namespace app.src.tictactoe.board
 {
   public class GameBoard
   {
-    Object[,] boardArr = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+    public static Object[,] boardArr = { { "1", "2", "3" }, { "4", "5", "6" }, { "7", "8", "9" } };
 
     public void Display()
     {
@@ -62,7 +62,8 @@ namespace app.src.tictactoe.board
             break;
         }
       }
-      if (Player.playerNumber ==2){
+      if (Player.playerNumber == 2)
+      {
         switch (space)
         {
           case 1:
@@ -98,7 +99,11 @@ namespace app.src.tictactoe.board
             break;
         }
       }
+
+
       Display();
+
     }
+
   }
 }
