@@ -1,11 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace app.src.inputs
+namespace app.src.tictactoe.inputs
 {
-    public class UserPrompt
+  public class UserPrompt
     {
         public static sbyte ChooseSpace()
         {
