@@ -10,7 +10,7 @@ namespace app.src.tictactoe.gameStatus
     
     
     // check rows
-    if (GameBoard.GameBoard.boardArr[0,0] == "x" && GameBoard.boardArr[0, 1] == "x" && GameBoard.boardArr[0, 2] == "x") { return true; }
+    if (GameBoard.boardArr[0,0] == "x" && GameBoard.boardArr[0, 1] == "x" && GameBoard.boardArr[0, 2] == "x") { return true; }
     if (GameBoard.boardArr[1, 0] == "x" && GameBoard.boardArr[1, 1] == "x" && GameBoard.boardArr[1, 2] == "x") { return true; }
     if (GameBoard.boardArr[2, 0] == "x" && GameBoard.boardArr[2, 1] == "x" && GameBoard.boardArr[2, 2] == "x") { return true; }
 
